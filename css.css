@@ -1,0 +1,8 @@
+body {background-color:#f4f4f4;}
+#go {position: absolute;width:950px;height:485px;left:50%;top:50%;margin:0 auto;margin-top:-243px;text-align:center;/*border:3px solid #FF9900;*/}
+#go p {padding-top:15px; font-size:24px; font-family:"微软雅黑"; border:5px #FFC36F solid; border-bottom:0; margin:0; background-color:#fff; }
+/*#go p {margin-top:430px; font-size:24px; font-family:"微软雅黑";}*/
+#go p a {text-decoration:underline;color:#FF6600;}
+.mycolor {color:#FF6600;}
+#go #bottom { width:950px; height:420px; margin:0 auto;background:url(../images/wwwyoujizzcom.jpg)no-repeat 0 bottom; }
+a:link,a:visited{ text-decoration:none;}
