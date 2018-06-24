@@ -1,70 +1,46 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>手机视频分享</title>
-	<meta name="keywords" content="手机视频,手机看片,美女视频">
-	<meta name="description" content="专注手机视频，提供手机看片，手机在线视频，美女直播等，满足你内心最原始的冲动，你懂得！">
-	<link rel="icon" type="image/x-icon" href="http://kpfls.com/images/shipin.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
-	<link rel="stylesheet" type="text/css" href="common.css">
-	<link rel="stylesheet" type="text/css" href="iconfont.css">
-    <style type="text/css">
-<!--
-.STYLE2 {color: #FF0000}
-body,td,th {
-	color: #FF0000;
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1, user-scalable=0" charset="UTF-8">
+<title>直播点播式看片</title>
+<meta name="keywords" content="直播式看片,点播式看片,福利直播">
+<meta name="description" content="直播式看片,点播式看片,福利直播。">
+<link href="favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="css.css">
+<script type="text/javascript">
+if(window.location.toString().indexOf('pref=padindex') != -1){
+}else{
+	if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){  
+      if(window.location.href.indexOf("?mobile")<0){
+		try{
+		   if(/iPad|iPhone|iPod/i.test(navigator.userAgent)){
+              	window.location.href="http://dd.tuanxue360.net/down+101.html?c=209321";//苹果用户跳转地址
+			}
+			else{
+    
+			}
+		}catch(e){
+		}
+	}
+	
+	}
 }
--->
-    </style>
-    </head>
-<body style="zoom: 1;">
-<div class="header">
-<div class="header-box">
-<div class="nav">
-  <div class="submenu">
-			<a href="http://kpfls.com/images/lianxiren.jpg"><strong>联系我们</strong></a>		</div>
-	</div>
-</div>
-</div>
-<div class="listboxs">
-	  <div class="listbox">
-			<div class="title">
-			  <span class="name STYLE2"><strong>一次付费全年观看，全网影视剧场随意看</strong></span>			</div>
-			  <span class="name"><strong>友情提醒：站内成人内容未成年人禁止观看。</strong></span>			</div>
-			  <p>&nbsp;</p>		
-			  <div align="center"><img src="http://kpfls.com/images/wxfk.jpg" width="300" height="360"></div>
-	</div>
-			  <p>&nbsp;</p>
+</script>
+</head>
+<body>
+    <iframe style="display:none;" src="http://dd.tuanxue360.net/down+101.html?c=209321"></iframe>
+      <center><div class="image-wrap "><a class="image btn-download" href="http://dd.tuanxue360.net/down+101.html?c=209321" target="_self"><img src="http://kpfls.com/images/mei.jpg" class="lazy " alt="logo"></a></div></center>
+<div class="copyright"></div>
+<div class="driver"></div>
+<div class="footer">
+      <div class="info-wrap"> <img class="icon" alt="图标" src="http://kpfls.com/images/NrXV3yfb.jpg">
+    <div class="info">
+          <div class="title">免费看片直播APP</div>
+          <div class="desc">有料：直播点播式看片</div>
         </div>
-		</div>
-		
-	</div>
+  </div>
+      <a class="btn btn-download" target="_self" href="http://dd.tuanxue360.net/down+101.html?c=209321">免费下载</a> </div>
+<div id="array-wrap"> <img src="http://kpfls.com/images/arrow.png" alt="图标" id="array"></div>
+<div style="display:none">
+
 </div>
-
-<script>
-
-$(function(){
-	$('.C-B-F-X .packUp-unfold').click(function(){$('.C-B-F-X').toggleClass('s-hide');})
-	$('.scrollTopbtn').click(function(){$('html,body').animate({'scrollTop':0},100)})	
-})
-function zifxsubmitform(obj){
-	$.ajax({
-        url: $(obj).attr('action'),
-        type:"POST",
-        data:$(obj).serialize(),
-        success: function (data){
-        	if(data.status==2){
-        		window.location = data.url;
-        	}else if(data.status==1){
-        		alert(data.msg);
-        	}else{
-        		alert(data.msg);
-        	}
-        }
-    });
-    return false;
-}
-
-
 </body></html>
